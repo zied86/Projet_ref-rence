@@ -1,0 +1,143 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4257940700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Je me connecte sur l\u0027application Orange HRM",
+            "match": {
+              "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3316304400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Tester la connexion - ORANGE HRM",
+        "description": "",
+        "id": "tester-la-connexion;tester-la-connexion---orange-hrm",
+        "after": [
+          {
+            "result": {
+              "duration": 749899900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TearDown.quitDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122630400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Je saisie le Username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61108400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4404968500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Je clique sur le bouton login",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46463500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Je me redirige vers la pahe Home \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 34
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeMeRedirigeVersLaPaheHome(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@cnx"
+          }
+        ]
+      }
+    ],
+    "name": "Tester la connexion",
+    "description": "ETQ utlisateur je souhaite tester la page connexion",
+    "id": "tester-la-connexion",
+    "keyword": "Feature",
+    "uri": "authentication/Authentification.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@authentication"
+      }
+    ]
+  }
+]
