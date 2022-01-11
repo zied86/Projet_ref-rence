@@ -22,7 +22,7 @@ public class AuthenticationStepDefinitions {
         this.authenticationPage = new AuthenticationPage();
     }
 
-    @When("^Je saisie le Username \"([^\"]*)\"$")
+    @When("^Je saisie le Username \"([^\']*)\"$")
     public void jeSaisieLeUsername(String name) throws Throwable {
         authenticationPage.fillUserName(name);
     }
@@ -35,6 +35,7 @@ public class AuthenticationStepDefinitions {
     @When("^Je clique sur le bouton login$")
     public void jeCliqueSurLeBoutonLogin() throws Throwable {
         authenticationPage.clickBtnLogin();
+
     }
 
     @Then("^Je me redirige vers la pahe Home \\\"([^\\\"]*)\\\"$")

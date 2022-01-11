@@ -11,9 +11,3 @@ Feature: Tester la connexion
 		And Je saisie le mot de passe "admin123"
 		And Je clique sur le bouton login
 		Then Je me redirige vers la pahe Home "Welcome"
-
-	@logout
-	Scenario: Tester la déconnexion - ORANGE HRM
-		When Je clique sur le bonhomme
-		When Je clique sur logout
-		Then Application déconnectée

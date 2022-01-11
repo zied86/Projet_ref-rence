@@ -13,13 +13,13 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/specs/features"},
-        strict = false, 
+        strict = false,
         plugin = {"pretty", "json:target/cucumber_json_reports/cucumber.json", "html:target/cucumber-report", "com.cucumber.listener.ExtentCucumberFormatter:target/extent-reports/ExtentReport.html"},
         snippets = SnippetType.CAMELCASE,
-        tags = ("@cnx"))
+        tags = ("@admin,@contact,@Personal_Details"))
 
 public class TestRunner {
-	
+
 	@AfterClass
 	public static void writeExtentReport() {
 

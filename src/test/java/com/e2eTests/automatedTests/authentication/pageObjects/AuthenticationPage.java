@@ -37,17 +37,12 @@ public class AuthenticationPage extends BasePage{
 	public static WebElement message;
 
 	/* Methods */
-	public void fillUserName(String name) {
-		userName.sendKeys(name);
-	}
-	public void fillPassword(String password) {
-		userPassword.sendKeys(password);
-	}
-	public void clickBtnLogin() {
-		btnLogin.click();
+public void fillUserName(String name) {userName.sendKeys(name);}
+	public void fillPassword(String password) {userPassword.sendKeys(password);}
+	public void clickBtnLogin() {btnLogin.click();
 	}
 
-	public void login(String name, String password) {
+	public void loginPage(String name, String password) {
 		userName.sendKeys(name);
 		userPassword.sendKeys(password);
 		btnLogin.click();
