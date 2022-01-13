@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3513959400,
+              "duration": 11081379100,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 67131100,
+              "duration": 74098000,
               "status": "passed"
             },
             "line": 7,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 43108100,
+              "duration": 54733900,
               "status": "passed"
             },
             "line": 8,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 4188190600,
+              "duration": 6846667700,
               "status": "passed"
             },
             "line": 9,
@@ -68,323 +68,12 @@
               "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
             },
             "keyword": "And "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2705765500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Setup.setWebDriver()"
-            }
-          }
-        ],
-        "line": 30,
-        "name": "Tester l\u0027ajout d\u0027un utilisateur",
-        "description": "",
-        "id": "tester-l\u0027ajout-d\u0027un-utilisateur;tester-l\u0027ajout-d\u0027un-utilisateur;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1488351000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Je clique sur le menu admin",
-            "match": {
-              "location": "AddUserStepDeninitions.jeCliqueSurLeMenuAdmin()"
-            },
-            "keyword": "When "
           },
           {
             "result": {
-              "duration": 564088300,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Je clique sur le bouton add",
-            "match": {
-              "location": "AddUserStepDeninitions.jeCliqueSurLeBoutonAdd()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 88336200,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Je selectionner le user role\"1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 29
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeSelectionnerLeUserRole(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 47879700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Je selectionner employee name",
-            "match": {
-              "location": "AddUserStepDeninitions.jeSelectionnerEmployeeName()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 79300600,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Je saisie employee name \"Alice Duval\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Alice Duval",
-                  "offset": 25
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeSaisieEmployeeName(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 81927900,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Je saisie  username \"Ziee.fxd4e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ziee.fxd4e",
-                  "offset": 21
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeSaisieUsername(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 95185300,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Je selectionner le status \"0\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0",
-                  "offset": 27
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeSelectionnerLeStatus(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 70890000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Je saisie le Password \"TEST1206952547\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TEST1206952547",
-                  "offset": 23
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeSaisieLePassword(String)"
-            },
-            "matchedColumns": [
-              4
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 57582200,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Je confirme le passwrod \"TEST1206952547\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TEST1206952547",
-                  "offset": 25
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeConfirmeLePasswrod(String)"
-            },
-            "matchedColumns": [
-              5
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 66148000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Je clique sur le bouton save",
-            "match": {
-              "location": "AddUserStepDeninitions.jeCliqueSurLeBoutonSave()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15154800,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#searchSystemUser_userName\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.186\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cf5c5a6381b6efc4dfe39ff29bd03ece\n*** Element info: {Using\u003did, value\u003dsearchSystemUser_userName}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.sendKeys(Unknown Source)\r\n\tat com.e2eTests.automatedTests.admin.searchuser.searchUserPageObject.userNamesSearch(searchUserPageObject.java:44)\r\n\tat com.e2eTests.automatedTests.admin.adduser.AddUserStepDeninitions.jeVérifierLAjoutDeUser(AddUserStepDeninitions.java:78)\r\n\tat ✽.And Je vérifier l\u0027ajout de user\"Ziee.fxd4e\"(admin/AddUser.feature:24)\r\n",
+              "duration": 76844800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3f2fb6e7b98dfd318e2509a94fdebd04\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
               "status": "failed"
-            },
-            "line": 24,
-            "name": "Je vérifier l\u0027ajout de user\"Ziee.fxd4e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ziee.fxd4e",
-                  "offset": 28
-                }
-              ],
-              "location": "AddUserStepDeninitions.jeVérifierLAjoutDeUser(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@admin"
-          },
-          {
-            "line": 12,
-            "name": "@update_statusOutline"
-          }
-        ]
-      }
-    ],
-    "name": "Tester l\u0027ajout d\u0027un utilisateur",
-    "description": "ETQ utilisateur je souhaite tester  l\u0027ajout d\u0027un utilisateur",
-    "id": "tester-l\u0027ajout-d\u0027un-utilisateur",
-    "keyword": "Feature",
-    "uri": "admin/AddUser.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@admin"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2736039200,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Je me connecte sur l\u0027application Orange HRM",
-            "match": {
-              "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 58262500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Je saisie le Username \"Admin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Admin",
-                  "offset": 23
-                }
-              ],
-              "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 63238100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Je saisie le mot de passe \"admin123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin123",
-                  "offset": 27
-                }
-              ],
-              "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3343204500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Je clique sur le bouton login",
-            "match": {
-              "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1305882900,
-              "status": "passed"
             },
             "line": 10,
             "name": "Je clique sur sur le menu MyInfo",
@@ -392,6 +81,17 @@
               "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Je clique sur le bouton qualification",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+            },
+            "keyword": "And "
           }
         ]
       },
@@ -399,7 +99,7 @@
         "before": [
           {
             "result": {
-              "duration": 1265958300,
+              "duration": 2854981200,
               "status": "passed"
             },
             "match": {
@@ -407,7 +107,7 @@
             }
           }
         ],
-        "line": 13,
+        "line": 14,
         "name": "Tester les details de contact",
         "description": "",
         "id": "tester-les-details-de-contact;tester-les-details-de-contact",
@@ -416,322 +116,119 @@
         "steps": [
           {
             "result": {
-              "duration": 876234300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Je clique sur contact details",
-            "match": {
-              "location": "DetailsContactStepDefinition.jeCliqueSurContactDetails()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 42486000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
-            "name": "je clique sur le bouton Edit",
+            "name": "Je clique sue le boutton edition experience",
             "match": {
-              "location": "DetailsContactStepDefinition.jeCliqueSurLeBoutonEdit()"
+              "location": "QualificationsStepDefinition.jeCliqueSueLeBouttonEditionExperience()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 52663000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
-            "name": "je saisie Adresse street1 \"rue mohamed 5\"",
+            "name": "Je saisi le company \"Fathi\u0026Zied\"",
             "match": {
               "arguments": [
                 {
-                  "val": "rue mohamed 5",
-                  "offset": 27
+                  "val": "Fathi\u0026Zied",
+                  "offset": 21
                 }
               ],
-              "location": "DetailsContactStepDefinition.jeSaisieAdresseStreet(String)"
+              "location": "QualificationsStepDefinition.jeSaisiLeCompany(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 45607500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
-            "name": "je saisie Address Street2 \"gabes\"",
+            "name": "Je saisi le job tilte \"Fathi\u0026Zied\"",
             "match": {
               "arguments": [
                 {
-                  "val": "gabes",
-                  "offset": 27
+                  "val": "Fathi\u0026Zied",
+                  "offset": 23
                 }
               ],
-              "location": "DetailsContactStepDefinition.jeSaisieAddressStreet(String)"
+              "location": "QualificationsStepDefinition.jeSaisiLeJobTilte(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 44928500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
-            "name": "je saisie city \"gabes\"",
+            "name": "Je selectionner la date from \"2021-01-01\"",
             "match": {
               "arguments": [
                 {
-                  "val": "gabes",
-                  "offset": 16
+                  "val": "2021-01-01",
+                  "offset": 30
                 }
               ],
-              "location": "DetailsContactStepDefinition.jeSaisieCity(String)"
+              "location": "QualificationsStepDefinition.jeSelectionnerLaDateFrom(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 45148800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
-            "name": "Je saisie stat/province \"mareth\"",
+            "name": "Je selectionner la date to \"2022-01-01\"",
             "match": {
               "arguments": [
                 {
-                  "val": "mareth",
-                  "offset": 25
+                  "val": "2022-01-01",
+                  "offset": 28
                 }
               ],
-              "location": "DetailsContactStepDefinition.jeSaisieStatProvince(String)"
+              "location": "QualificationsStepDefinition.jeSelectionnerLaDateTo(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 43721700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
-            "name": "Je saisie Postal code \"6000\"",
+            "name": "Je salis un comment \"Fathi\u0026Zied\"",
             "match": {
               "arguments": [
                 {
-                  "val": "6000",
-                  "offset": 23
+                  "val": "Fathi\u0026Zied",
+                  "offset": 21
                 }
               ],
-              "location": "DetailsContactStepDefinition.jeSaisiePostalCode(String)"
+              "location": "QualificationsStepDefinition.jeSalisUnComment(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 67758300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
-            "name": "Je selectionne country \"TN\"",
+            "name": "Je clique sur le bouton daveexperience",
             "match": {
-              "arguments": [
-                {
-                  "val": "TN",
-                  "offset": 24
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSelectionneCountry(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 47676100,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "je saisie le teliphone \"71254845\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "71254845",
-                  "offset": 24
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSaisieLeTeliphone(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 48639800,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Je saisie Mobile \"95658632\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "95658632",
-                  "offset": 18
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSaisieMobile(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 71805600,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Je saisie Work teliphone \"25485652\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "25485652",
-                  "offset": 26
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSaisieWorkTeliphone(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 70051600,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "je saisie work email \"test@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "test@gmail.com",
-                  "offset": 22
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSaisieWorkEmail(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 83958900,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "Je saisie other email \"test1@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "test1@gmail.com",
-                  "offset": 23
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSaisieOtherEmail(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1219605800,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "je clique sur save",
-            "match": {
-              "location": "DetailsContactStepDefinition.jeCliqueSurSave()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 47821300,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "je clique sur Edit_attachement",
-            "match": {
-              "location": "DetailsContactStepDefinition.jeCliqueSurEdit_attachement()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 30129200,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Je clique un fichier \"C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg",
-                  "offset": 22
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeCliqueUnFichier(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 48891600,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Je saisi dans le champ comment \"test contact details\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "test contact details",
-                  "offset": 32
-                }
-              ],
-              "location": "DetailsContactStepDefinition.jeSaisiDansLeChampComment(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2543667700,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "je clique sur upload",
-            "match": {
-              "location": "DetailsContactStepDefinition.jeCliqueSurUpload()"
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonDaveexperience()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 12,
-            "name": "@contact_Details"
+            "line": 13,
+            "name": "@work_experience"
           }
         ]
-      }
-    ],
-    "name": "Tester les details de contact",
-    "description": "ETQ utilisateur je souhaite tester les details de contact d\u0027un utilisateur",
-    "id": "tester-les-details-de-contact",
-    "keyword": "Feature",
-    "uri": "myinfo/ContactDetails.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@contact"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
+      },
       {
         "line": 5,
         "name": "",
@@ -741,7 +238,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2536388500,
+              "duration": 4397600900,
               "status": "passed"
             },
             "line": 6,
@@ -753,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 58096900,
+              "duration": 46965000,
               "status": "passed"
             },
             "line": 7,
@@ -771,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 66759500,
+              "duration": 45758800,
               "status": "passed"
             },
             "line": 8,
@@ -789,7 +286,7 @@
           },
           {
             "result": {
-              "duration": 2823654000,
+              "duration": 3064081600,
               "status": "passed"
             },
             "line": 9,
@@ -801,13 +298,25 @@
           },
           {
             "result": {
-              "duration": 2092035900,
-              "status": "passed"
+              "duration": 20899500,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a92f56294e1c01ce5595de99bf6e594\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "Je clique sur sur le menu MyInfo",
             "match": {
               "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Je clique sur le bouton qualification",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
             },
             "keyword": "And "
           }
@@ -817,7 +326,7 @@
         "before": [
           {
             "result": {
-              "duration": 1260118300,
+              "duration": 1275178800,
               "status": "passed"
             },
             "match": {
@@ -825,403 +334,961 @@
             }
           }
         ],
-        "line": 13,
-        "name": "Tester la modification detail personnel",
+        "line": 24,
+        "name": "Tester les details de contact",
         "description": "",
-        "id": "tester-la-modification-detail-personnel;tester-la-modification-detail-personnel",
+        "id": "tester-les-details-de-contact;tester-les-details-de-contact",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 948101700,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 14,
-            "name": "Je clique sur le sous menu detail presonnel",
+            "line": 25,
+            "name": "Je clique sur le bouton editeducation",
             "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurLeSousMenuDetailPresonnel()"
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditeducation()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 45332200,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 15,
-            "name": "Je clique sur le bouton edit dans le boc detai personnel",
-            "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurLeBoutonEditDansLeBocDetaiPersonnel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 84385600,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Je saisi le First Name \"ZSS\"",
+            "line": 26,
+            "name": "Je selectionner un level \"1\"",
             "match": {
               "arguments": [
                 {
-                  "val": "ZSS",
-                  "offset": 24
+                  "val": "1",
+                  "offset": 26
                 }
               ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeFirstName(String)"
+              "location": "QualificationsStepDefinition.jeSelectionnerUnLevel(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 65725800,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 17,
-            "name": "Je saisi le Middle Name \"ZSS\"",
+            "line": 27,
+            "name": "Je saisi l\u0027instutite \"Fathi\u0026Zied\"",
             "match": {
               "arguments": [
                 {
-                  "val": "ZSS",
-                  "offset": 25
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeMiddleName(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 74426200,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Je saisi le Last Name \"ZSSRR\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ZSSRR",
-                  "offset": 23
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeLastName(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 70987100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Je saisi le Employee Id \"e1020122\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "e1020122",
-                  "offset": 25
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeEmployeeId(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 68968600,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Je saisi le Other Id \"id854\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "id854",
+                  "val": "Fathi\u0026Zied",
                   "offset": 22
                 }
               ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeOtherId(String)"
+              "location": "QualificationsStepDefinition.jeSaisiLInstutite(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 80675900,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Je saisi le Driver\u0027s License Number \"1245\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1245",
-                  "offset": 37
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeDriverSLicenseNumber(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 116531800,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Je saisi le License Expiry Date \"2022-01-04\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2022-01-04",
-                  "offset": 33
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeLicenseExpiryDate(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 84860200,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Je saisi le SSN Number \"12345bxjBZX\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "12345bxjBZX",
-                  "offset": 24
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeSSNNumber(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 80671300,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Je saisi le SIN Number \"25521\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "25521",
-                  "offset": 24
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiLeSINNumber(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 71589000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "Je selectionner Marital Status \"Single\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Single",
-                  "offset": 32
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSelectionnerMaritalStatus(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72572700,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "Je selectionner Nationality  \"181\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "181",
-                  "offset": 30
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSelectionnerNationality(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 92985900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
-            "name": "Je saisi Date of Birth \"1975-10-15\"",
+            "name": "Je saisi Major Specialization \"Fathi\u0026Zied\"",
             "match": {
               "arguments": [
                 {
-                  "val": "1975-10-15",
-                  "offset": 24
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiDateOfBirth(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72276800,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Je Saisi Nick Nam \"Test\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Test",
-                  "offset": 19
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiNickNam(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 66002100,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Je saisi  Military Service \"test\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "test",
-                  "offset": 28
-                }
-              ],
-              "location": "PersonalDetailsStepDefinition.jeSaisiMilitaryService(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1224315800,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Je clique sur SaveDetais",
-            "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurSaveDetais()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 46049900,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "Je clique sur editCustom Fields",
-            "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurEditCustomFields()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 101499700,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Je selectionner Custom Fields \"O+\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "O+",
+                  "val": "Fathi\u0026Zied",
                   "offset": 31
                 }
               ],
-              "location": "PersonalDetailsStepDefinition.jeSelectionnerCustomFields(String)"
+              "location": "QualificationsStepDefinition.jeSaisiMajorSpecialization(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1261206200,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 35,
-            "name": "Je clique sur saveCustom Fields",
-            "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurSaveCustomFields()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 41406200,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "Je clique sur Add Attachment",
-            "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurAddAttachment()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 31236500,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "Je choisi un fichier Select File \"C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg\"",
+            "line": 29,
+            "name": "Je saisi  year \"2021\"",
             "match": {
               "arguments": [
                 {
-                  "val": "C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg",
-                  "offset": 34
+                  "val": "2021",
+                  "offset": 16
                 }
               ],
-              "location": "PersonalDetailsStepDefinition.jeChoisiUnFichierSelectFile(String)"
+              "location": "QualificationsStepDefinition.jeSaisiYear(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2574909700,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Je saisi gpa/Score \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 20
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisiGpaScore(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Je saisi start date \"2022-01-15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-01-15",
+                  "offset": 21
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisiStartDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Je saisi end date \"2025-01-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2025-01-30",
+                  "offset": 19
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisiEndDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Je clique sur le bouton saveeducation",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSaveeducation()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@edication"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3755025400,
               "status": "passed"
             },
-            "line": 38,
-            "name": "Je clique sur upload",
+            "line": 6,
+            "name": "Je me connecte sur l\u0027application Orange HRM",
             "match": {
-              "location": "PersonalDetailsStepDefinition.jeCliqueSurUpload()"
+              "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86668500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je saisie le Username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91926000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126339300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je clique sur le bouton login",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11203000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3e9fcc046db0715364d5d14a14fa58c2\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Je clique sur sur le menu MyInfo",
+            "match": {
+              "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Je clique sur le bouton qualification",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1165766200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Tester les details de contact",
+        "description": "",
+        "id": "tester-les-details-de-contact;tester-les-details-de-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Je clique sur le bouton editskill",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditskill()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Je selectionner un skill \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 26
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSelectionnerUnSkill(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Je saisi years of experience\"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 29
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisiYearsOfExperience(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "Je saisi Commentsskill\"Fathi\u0026Zied\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fathi\u0026Zied",
+                  "offset": 23
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisiCommentsskill(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Je clique sur saveskill",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurSaveskill()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@skills"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4013757100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Je me connecte sur l\u0027application Orange HRM",
+            "match": {
+              "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61671800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je saisie le Username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56478900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1316759600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je clique sur le bouton login",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12192800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b2607be3d3ff3ef4fdad16eb15610510\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Je clique sur sur le menu MyInfo",
+            "match": {
+              "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Je clique sur le bouton qualification",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1210759500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Tester langues",
+        "description": "",
+        "id": "tester-les-details-de-contact;tester-langues",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "je clique sur le bouton edit language",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditLanguage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "je select language\"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSelectLanguage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "je select Fluency\"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 18
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSelectFluency(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "je select competency\"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSelectCompetency(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "je saisie comments \"Fathi\u0026Zied\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fathi\u0026Zied",
+                  "offset": 20
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisieComments(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "je clique sur le bouton save_language",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSave_language()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 12,
-            "name": "@PersonalDetails"
+            "line": 42,
+            "name": "@languages"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3698849800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Je me connecte sur l\u0027application Orange HRM",
+            "match": {
+              "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75327900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je saisie le Username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72864400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127945400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je clique sur le bouton login",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13828400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd5c8f365c3924ce2f6cb2a27adcd82f\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Je clique sur sur le menu MyInfo",
+            "match": {
+              "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Je clique sur le bouton qualification",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1226990200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Tester license",
+        "description": "",
+        "id": "tester-les-details-de-contact;tester-license",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "je clique sur le bouton add_license",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonAdd_license()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "je select Type de certif\"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 25
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSelectTypeDeCertif(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "je saisie license Number\"Fathi\u0026Zied\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fathi\u0026Zied",
+                  "offset": 25
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisieLicenseNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "je saisie issued date \"2010-10-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2010-10-30",
+                  "offset": 23
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisieIssuedDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "le saisie Expired Date \"2021-01-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2021-01-20",
+                  "offset": 24
+                }
+              ],
+              "location": "QualificationsStepDefinition.leSaisieExpiredDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "je clique sur le bouton save_license",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSave_license()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@license"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3692935400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Je me connecte sur l\u0027application Orange HRM",
+            "match": {
+              "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55906700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je saisie le Username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 23
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48847800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1108076700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je clique sur le bouton login",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14389700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a49386ff045d388a0495aca7f511bd98\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Je clique sur sur le menu MyInfo",
+            "match": {
+              "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Je clique sur le bouton qualification",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1253269300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Tester Attachement",
+        "description": "",
+        "id": "tester-les-details-de-contact;tester-attachement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "je clique sur le bouton Add_Attachement",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonAdd_Attachement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "je choisie un fichier \"C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg",
+                  "offset": 23
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeChoisieUnFichier(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "je saisie un comment \"Fathi\u0026Zied\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fathi\u0026Zied",
+                  "offset": 22
+                }
+              ],
+              "location": "QualificationsStepDefinition.jeSaisieUnComment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "je clique sur le bouton Upload",
+            "match": {
+              "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonUpload()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 60,
+            "name": "@attachments"
           }
         ]
       }
     ],
-    "name": "Tester la modification detail personnel",
-    "description": "ETQ utilisateur je souhaite tester tester la suppression d\u0027un utilisateur",
-    "id": "tester-la-modification-detail-personnel",
+    "name": "Tester les details de contact",
+    "description": "ETQ utilisateur je souhaite tester les details de contact d\u0027un utilisateur",
+    "id": "tester-les-details-de-contact",
     "keyword": "Feature",
-    "uri": "myinfo/PersonalDetails.feature",
+    "uri": "myinfo/Qualifications.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@Personal_Details"
+        "name": "@qualification"
       }
     ]
   }

@@ -1,405 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("admin/AddUser.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Tester l\u0027ajout d\u0027un utilisateur",
-  "description": "ETQ utilisateur je souhaite tester  l\u0027ajout d\u0027un utilisateur",
-  "id": "tester-l\u0027ajout-d\u0027un-utilisateur",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@admin"
-    }
-  ]
-});
-formatter.scenarioOutline({
-  "line": 13,
-  "name": "Tester l\u0027ajout d\u0027un utilisateur",
-  "description": "",
-  "id": "tester-l\u0027ajout-d\u0027un-utilisateur;tester-l\u0027ajout-d\u0027un-utilisateur",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 12,
-      "name": "@update_statusOutline"
-    }
-  ]
-});
-formatter.step({
-  "line": 14,
-  "name": "Je clique sur le menu admin",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 15,
-  "name": "Je clique sur le bouton add",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "Je selectionner le user role\"\u003cUservalue\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "Je selectionner employee name",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "Je saisie employee name \"\u003cEmployeeName\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "Je saisie  username \"\u003cUsername\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "Je selectionner le status \"\u003cStatusvalue\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Je saisie le Password \"\u003cPassword\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Je confirme le passwrod \"\u003cConfirmepassword\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "Je clique sur le bouton save",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 24,
-  "name": "Je vérifier l\u0027ajout de user\"\u003cUsername\u003e\"",
-  "keyword": "And "
-});
-formatter.examples({
-  "line": 28,
-  "name": "",
-  "description": "",
-  "id": "tester-l\u0027ajout-d\u0027un-utilisateur;tester-l\u0027ajout-d\u0027un-utilisateur;",
-  "rows": [
-    {
-      "cells": [
-        "Uservalue",
-        "EmployeeName",
-        "Username",
-        "Statusvalue",
-        "Password",
-        "Confirmepassword"
-      ],
-      "line": 29,
-      "id": "tester-l\u0027ajout-d\u0027un-utilisateur;tester-l\u0027ajout-d\u0027un-utilisateur;;1"
-    },
-    {
-      "cells": [
-        "1",
-        "Alice Duval",
-        "Ziee.fxd4e",
-        "0",
-        "TEST1206952547",
-        "TEST1206952547"
-      ],
-      "line": 30,
-      "id": "tester-l\u0027ajout-d\u0027un-utilisateur;tester-l\u0027ajout-d\u0027un-utilisateur;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 2705765500,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "Je me connecte sur l\u0027application Orange HRM",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "Je saisie le Username \"Admin\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "Je saisie le mot de passe \"admin123\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Je clique sur le bouton login",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
-});
-formatter.result({
-  "duration": 3513959400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Admin",
-      "offset": 23
-    }
-  ],
-  "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
-});
-formatter.result({
-  "duration": 67131100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin123",
-      "offset": 27
-    }
-  ],
-  "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
-});
-formatter.result({
-  "duration": 43108100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
-});
-formatter.result({
-  "duration": 4188190600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 30,
-  "name": "Tester l\u0027ajout d\u0027un utilisateur",
-  "description": "",
-  "id": "tester-l\u0027ajout-d\u0027un-utilisateur;tester-l\u0027ajout-d\u0027un-utilisateur;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@admin"
-    },
-    {
-      "line": 12,
-      "name": "@update_statusOutline"
-    }
-  ]
-});
-formatter.step({
-  "line": 14,
-  "name": "Je clique sur le menu admin",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 15,
-  "name": "Je clique sur le bouton add",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "Je selectionner le user role\"1\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "Je selectionner employee name",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "Je saisie employee name \"Alice Duval\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "Je saisie  username \"Ziee.fxd4e\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "Je selectionner le status \"0\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Je saisie le Password \"TEST1206952547\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Je confirme le passwrod \"TEST1206952547\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "Je clique sur le bouton save",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 24,
-  "name": "Je vérifier l\u0027ajout de user\"Ziee.fxd4e\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AddUserStepDeninitions.jeCliqueSurLeMenuAdmin()"
-});
-formatter.result({
-  "duration": 1488351000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddUserStepDeninitions.jeCliqueSurLeBoutonAdd()"
-});
-formatter.result({
-  "duration": 564088300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1",
-      "offset": 29
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeSelectionnerLeUserRole(String)"
-});
-formatter.result({
-  "duration": 88336200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddUserStepDeninitions.jeSelectionnerEmployeeName()"
-});
-formatter.result({
-  "duration": 47879700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Alice Duval",
-      "offset": 25
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeSaisieEmployeeName(String)"
-});
-formatter.result({
-  "duration": 79300600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ziee.fxd4e",
-      "offset": 21
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeSaisieUsername(String)"
-});
-formatter.result({
-  "duration": 81927900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "0",
-      "offset": 27
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeSelectionnerLeStatus(String)"
-});
-formatter.result({
-  "duration": 95185300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "TEST1206952547",
-      "offset": 23
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeSaisieLePassword(String)"
-});
-formatter.result({
-  "duration": 70890000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "TEST1206952547",
-      "offset": 25
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeConfirmeLePasswrod(String)"
-});
-formatter.result({
-  "duration": 57582200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddUserStepDeninitions.jeCliqueSurLeBoutonSave()"
-});
-formatter.result({
-  "duration": 66148000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ziee.fxd4e",
-      "offset": 28
-    }
-  ],
-  "location": "AddUserStepDeninitions.jeVérifierLAjoutDeUser(String)"
-});
-formatter.result({
-  "duration": 15154800,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#searchSystemUser_userName\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.186\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cf5c5a6381b6efc4dfe39ff29bd03ece\n*** Element info: {Using\u003did, value\u003dsearchSystemUser_userName}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.sendKeys(Unknown Source)\r\n\tat com.e2eTests.automatedTests.admin.searchuser.searchUserPageObject.userNamesSearch(searchUserPageObject.java:44)\r\n\tat com.e2eTests.automatedTests.admin.adduser.AddUserStepDeninitions.jeVérifierLAjoutDeUser(AddUserStepDeninitions.java:78)\r\n\tat ✽.And Je vérifier l\u0027ajout de user\"Ziee.fxd4e\"(admin/AddUser.feature:24)\r\n",
-  "status": "failed"
-});
-formatter.uri("myinfo/ContactDetails.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("myinfo/Qualifications.feature");
 formatter.feature({
   "line": 2,
   "name": "Tester les details de contact",
@@ -409,12 +8,12 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@contact"
+      "name": "@qualification"
     }
   ]
 });
 formatter.before({
-  "duration": 1265958300,
+  "duration": 2854981200,
   "status": "passed"
 });
 formatter.background({
@@ -449,11 +48,16 @@ formatter.step({
   "name": "Je clique sur sur le menu MyInfo",
   "keyword": "And "
 });
+formatter.step({
+  "line": 11,
+  "name": "Je clique sur le bouton qualification",
+  "keyword": "And "
+});
 formatter.match({
   "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
 });
 formatter.result({
-  "duration": 2736039200,
+  "duration": 11081379100,
   "status": "passed"
 });
 formatter.match({
@@ -466,7 +70,7 @@ formatter.match({
   "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
 });
 formatter.result({
-  "duration": 58262500,
+  "duration": 74098000,
   "status": "passed"
 });
 formatter.match({
@@ -479,25 +83,32 @@ formatter.match({
   "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
 });
 formatter.result({
-  "duration": 63238100,
+  "duration": 54733900,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
 });
 formatter.result({
-  "duration": 3343204500,
+  "duration": 6846667700,
   "status": "passed"
 });
 formatter.match({
   "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
 });
 formatter.result({
-  "duration": 1305882900,
-  "status": "passed"
+  "duration": 76844800,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3f2fb6e7b98dfd318e2509a94fdebd04\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 14,
   "name": "Tester les details de contact",
   "description": "",
   "id": "tester-les-details-de-contact;tester-les-details-de-contact",
@@ -505,321 +116,120 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 12,
-      "name": "@contact_Details"
+      "line": 13,
+      "name": "@work_experience"
     }
   ]
 });
 formatter.step({
-  "line": 14,
-  "name": "Je clique sur contact details",
-  "keyword": "When "
-});
-formatter.step({
   "line": 15,
-  "name": "je clique sur le bouton Edit",
+  "name": "Je clique sue le boutton edition experience",
   "keyword": "And "
 });
 formatter.step({
   "line": 16,
-  "name": "je saisie Adresse street1 \"rue mohamed 5\"",
+  "name": "Je saisi le company \"Fathi\u0026Zied\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 17,
-  "name": "je saisie Address Street2 \"gabes\"",
+  "name": "Je saisi le job tilte \"Fathi\u0026Zied\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 18,
-  "name": "je saisie city \"gabes\"",
+  "name": "Je selectionner la date from \"2021-01-01\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 19,
-  "name": "Je saisie stat/province \"mareth\"",
+  "name": "Je selectionner la date to \"2022-01-01\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 20,
-  "name": "Je saisie Postal code \"6000\"",
+  "name": "Je salis un comment \"Fathi\u0026Zied\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 21,
-  "name": "Je selectionne country \"TN\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "je saisie le teliphone \"71254845\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "Je saisie Mobile \"95658632\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "Je saisie Work teliphone \"25485652\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 25,
-  "name": "je saisie work email \"test@gmail.com\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "Je saisie other email \"test1@gmail.com\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "je clique sur save",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 28,
-  "name": "je clique sur Edit_attachement",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 29,
-  "name": "Je clique un fichier \"C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 30,
-  "name": "Je saisi dans le champ comment \"test contact details\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 31,
-  "name": "je clique sur upload",
+  "name": "Je clique sur le bouton daveexperience",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DetailsContactStepDefinition.jeCliqueSurContactDetails()"
+  "location": "QualificationsStepDefinition.jeCliqueSueLeBouttonEditionExperience()"
 });
 formatter.result({
-  "duration": 876234300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DetailsContactStepDefinition.jeCliqueSurLeBoutonEdit()"
-});
-formatter.result({
-  "duration": 42486000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "rue mohamed 5",
-      "offset": 27
+      "val": "Fathi\u0026Zied",
+      "offset": 21
     }
   ],
-  "location": "DetailsContactStepDefinition.jeSaisieAdresseStreet(String)"
+  "location": "QualificationsStepDefinition.jeSaisiLeCompany(String)"
 });
 formatter.result({
-  "duration": 52663000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "gabes",
-      "offset": 27
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisieAddressStreet(String)"
-});
-formatter.result({
-  "duration": 45607500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "gabes",
-      "offset": 16
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisieCity(String)"
-});
-formatter.result({
-  "duration": 44928500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "mareth",
-      "offset": 25
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisieStatProvince(String)"
-});
-formatter.result({
-  "duration": 45148800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "6000",
+      "val": "Fathi\u0026Zied",
       "offset": 23
     }
   ],
-  "location": "DetailsContactStepDefinition.jeSaisiePostalCode(String)"
+  "location": "QualificationsStepDefinition.jeSaisiLeJobTilte(String)"
 });
 formatter.result({
-  "duration": 43721700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "TN",
-      "offset": 24
+      "val": "2021-01-01",
+      "offset": 30
     }
   ],
-  "location": "DetailsContactStepDefinition.jeSelectionneCountry(String)"
+  "location": "QualificationsStepDefinition.jeSelectionnerLaDateFrom(String)"
 });
 formatter.result({
-  "duration": 67758300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "71254845",
-      "offset": 24
+      "val": "2022-01-01",
+      "offset": 28
     }
   ],
-  "location": "DetailsContactStepDefinition.jeSaisieLeTeliphone(String)"
+  "location": "QualificationsStepDefinition.jeSelectionnerLaDateTo(String)"
 });
 formatter.result({
-  "duration": 47676100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "95658632",
-      "offset": 18
+      "val": "Fathi\u0026Zied",
+      "offset": 21
     }
   ],
-  "location": "DetailsContactStepDefinition.jeSaisieMobile(String)"
+  "location": "QualificationsStepDefinition.jeSalisUnComment(String)"
 });
 formatter.result({
-  "duration": 48639800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "25485652",
-      "offset": 26
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisieWorkTeliphone(String)"
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonDaveexperience()"
 });
 formatter.result({
-  "duration": 71805600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test@gmail.com",
-      "offset": 22
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisieWorkEmail(String)"
-});
-formatter.result({
-  "duration": 70051600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test1@gmail.com",
-      "offset": 23
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisieOtherEmail(String)"
-});
-formatter.result({
-  "duration": 83958900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DetailsContactStepDefinition.jeCliqueSurSave()"
-});
-formatter.result({
-  "duration": 1219605800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DetailsContactStepDefinition.jeCliqueSurEdit_attachement()"
-});
-formatter.result({
-  "duration": 47821300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg",
-      "offset": 22
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeCliqueUnFichier(String)"
-});
-formatter.result({
-  "duration": 30129200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test contact details",
-      "offset": 32
-    }
-  ],
-  "location": "DetailsContactStepDefinition.jeSaisiDansLeChampComment(String)"
-});
-formatter.result({
-  "duration": 48891600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DetailsContactStepDefinition.jeCliqueSurUpload()"
-});
-formatter.result({
-  "duration": 2543667700,
-  "status": "passed"
-});
-formatter.uri("myinfo/PersonalDetails.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Tester la modification detail personnel",
-  "description": "ETQ utilisateur je souhaite tester tester la suppression d\u0027un utilisateur",
-  "id": "tester-la-modification-detail-personnel",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@Personal_Details"
-    }
-  ]
+  "status": "skipped"
 });
 formatter.before({
-  "duration": 1260118300,
+  "duration": 1275178800,
   "status": "passed"
 });
 formatter.background({
@@ -854,11 +264,16 @@ formatter.step({
   "name": "Je clique sur sur le menu MyInfo",
   "keyword": "And "
 });
+formatter.step({
+  "line": 11,
+  "name": "Je clique sur le bouton qualification",
+  "keyword": "And "
+});
 formatter.match({
   "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
 });
 formatter.result({
-  "duration": 2536388500,
+  "duration": 4397600900,
   "status": "passed"
 });
 formatter.match({
@@ -871,7 +286,7 @@ formatter.match({
   "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
 });
 formatter.result({
-  "duration": 58096900,
+  "duration": 46965000,
   "status": "passed"
 });
 formatter.match({
@@ -884,407 +299,928 @@ formatter.match({
   "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
 });
 formatter.result({
-  "duration": 66759500,
+  "duration": 45758800,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
 });
 formatter.result({
-  "duration": 2823654000,
+  "duration": 3064081600,
   "status": "passed"
 });
 formatter.match({
   "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
 });
 formatter.result({
-  "duration": 2092035900,
-  "status": "passed"
+  "duration": 20899500,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a92f56294e1c01ce5595de99bf6e594\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Tester la modification detail personnel",
+  "line": 24,
+  "name": "Tester les details de contact",
   "description": "",
-  "id": "tester-la-modification-detail-personnel;tester-la-modification-detail-personnel",
+  "id": "tester-les-details-de-contact;tester-les-details-de-contact",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 12,
-      "name": "@PersonalDetails"
+      "line": 23,
+      "name": "@edication"
     }
   ]
 });
 formatter.step({
-  "line": 14,
-  "name": "Je clique sur le sous menu detail presonnel",
+  "line": 25,
+  "name": "Je clique sur le bouton editeducation",
   "keyword": "When "
 });
 formatter.step({
-  "line": 15,
-  "name": "Je clique sur le bouton edit dans le boc detai personnel",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "Je saisi le First Name \"ZSS\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "Je saisi le Middle Name \"ZSS\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "Je saisi le Last Name \"ZSSRR\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "Je saisi le Employee Id \"e1020122\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "Je saisi le Other Id \"id854\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Je saisi le Driver\u0027s License Number \"1245\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Je saisi le License Expiry Date \"2022-01-04\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "Je saisi le SSN Number \"12345bxjBZX\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "Je saisi le SIN Number \"25521\"",
-  "keyword": "And "
-});
-formatter.step({
   "line": 26,
-  "name": "Je selectionner Marital Status \"Single\"",
+  "name": "Je selectionner un level \"1\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 27,
-  "name": "Je selectionner Nationality  \"181\"",
+  "name": "Je saisi l\u0027instutite \"Fathi\u0026Zied\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 28,
-  "name": "Je saisi Date of Birth \"1975-10-15\"",
+  "name": "Je saisi Major Specialization \"Fathi\u0026Zied\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 29,
-  "name": "Je Saisi Nick Nam \"Test\"",
+  "name": "Je saisi  year \"2021\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "Je saisi gpa/Score \"20\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 31,
-  "name": "Je saisi  Military Service \"test\"",
+  "name": "Je saisi start date \"2022-01-15\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 32,
-  "name": "Je clique sur SaveDetais",
+  "name": "Je saisi end date \"2025-01-30\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 33,
-  "name": "Je clique sur editCustom Fields",
+  "name": "Je clique sur le bouton saveeducation",
   "keyword": "And "
-});
-formatter.step({
-  "line": 34,
-  "name": "Je selectionner Custom Fields \"O+\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 35,
-  "name": "Je clique sur saveCustom Fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "Je clique sur Add Attachment",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
-  "name": "Je choisi un fichier Select File \"C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 38,
-  "name": "Je clique sur upload",
-  "keyword": "Then "
 });
 formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurLeSousMenuDetailPresonnel()"
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditeducation()"
 });
 formatter.result({
-  "duration": 948101700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurLeBoutonEditDansLeBocDetaiPersonnel()"
-});
-formatter.result({
-  "duration": 45332200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "ZSS",
-      "offset": 24
+      "val": "1",
+      "offset": 26
     }
   ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeFirstName(String)"
+  "location": "QualificationsStepDefinition.jeSelectionnerUnLevel(String)"
 });
 formatter.result({
-  "duration": 84385600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "ZSS",
-      "offset": 25
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeMiddleName(String)"
-});
-formatter.result({
-  "duration": 65725800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "ZSSRR",
-      "offset": 23
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeLastName(String)"
-});
-formatter.result({
-  "duration": 74426200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "e1020122",
-      "offset": 25
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeEmployeeId(String)"
-});
-formatter.result({
-  "duration": 70987100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "id854",
+      "val": "Fathi\u0026Zied",
       "offset": 22
     }
   ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeOtherId(String)"
+  "location": "QualificationsStepDefinition.jeSaisiLInstutite(String)"
 });
 formatter.result({
-  "duration": 68968600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1245",
-      "offset": 37
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeDriverSLicenseNumber(String)"
-});
-formatter.result({
-  "duration": 80675900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2022-01-04",
-      "offset": 33
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeLicenseExpiryDate(String)"
-});
-formatter.result({
-  "duration": 116531800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "12345bxjBZX",
-      "offset": 24
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeSSNNumber(String)"
-});
-formatter.result({
-  "duration": 84860200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "25521",
-      "offset": 24
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiLeSINNumber(String)"
-});
-formatter.result({
-  "duration": 80671300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Single",
-      "offset": 32
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSelectionnerMaritalStatus(String)"
-});
-formatter.result({
-  "duration": 71589000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "181",
-      "offset": 30
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSelectionnerNationality(String)"
-});
-formatter.result({
-  "duration": 72572700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1975-10-15",
-      "offset": 24
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiDateOfBirth(String)"
-});
-formatter.result({
-  "duration": 92985900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Test",
-      "offset": 19
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiNickNam(String)"
-});
-formatter.result({
-  "duration": 72276800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test",
-      "offset": 28
-    }
-  ],
-  "location": "PersonalDetailsStepDefinition.jeSaisiMilitaryService(String)"
-});
-formatter.result({
-  "duration": 66002100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurSaveDetais()"
-});
-formatter.result({
-  "duration": 1224315800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurEditCustomFields()"
-});
-formatter.result({
-  "duration": 46049900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "O+",
+      "val": "Fathi\u0026Zied",
       "offset": 31
     }
   ],
-  "location": "PersonalDetailsStepDefinition.jeSelectionnerCustomFields(String)"
+  "location": "QualificationsStepDefinition.jeSaisiMajorSpecialization(String)"
 });
 formatter.result({
-  "duration": 101499700,
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2021",
+      "offset": 16
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisiYear(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 20
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisiGpaScore(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2022-01-15",
+      "offset": 21
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisiStartDate(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2025-01-30",
+      "offset": 19
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisiEndDate(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSaveeducation()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.before({
+  "duration": 1165766200,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "Je me connecte sur l\u0027application Orange HRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Je saisie le Username \"Admin\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Je saisie le mot de passe \"admin123\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Je clique sur le bouton login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Je clique sur sur le menu MyInfo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Je clique sur le bouton qualification",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+});
+formatter.result({
+  "duration": 3755025400,
   "status": "passed"
 });
 formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurSaveCustomFields()"
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 23
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
 });
 formatter.result({
-  "duration": 1261206200,
+  "duration": 86668500,
   "status": "passed"
 });
 formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurAddAttachment()"
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 27
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
 });
 formatter.result({
-  "duration": 41406200,
+  "duration": 91926000,
   "status": "passed"
+});
+formatter.match({
+  "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+});
+formatter.result({
+  "duration": 1126339300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+});
+formatter.result({
+  "duration": 11203000,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3e9fcc046db0715364d5d14a14fa58c2\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 36,
+  "name": "Tester les details de contact",
+  "description": "",
+  "id": "tester-les-details-de-contact;tester-les-details-de-contact",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 35,
+      "name": "@skills"
+    }
+  ]
+});
+formatter.step({
+  "line": 37,
+  "name": "Je clique sur le bouton editskill",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 38,
+  "name": "Je selectionner un skill \"15\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "Je saisi years of experience\"10\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "Je saisi Commentsskill\"Fathi\u0026Zied\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 41,
+  "name": "Je clique sur saveskill",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditskill()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 26
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSelectionnerUnSkill(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 29
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisiYearsOfExperience(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fathi\u0026Zied",
+      "offset": 23
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisiCommentsskill(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurSaveskill()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.before({
+  "duration": 1210759500,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "Je me connecte sur l\u0027application Orange HRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Je saisie le Username \"Admin\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Je saisie le mot de passe \"admin123\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Je clique sur le bouton login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Je clique sur sur le menu MyInfo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Je clique sur le bouton qualification",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+});
+formatter.result({
+  "duration": 4013757100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 23
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+});
+formatter.result({
+  "duration": 61671800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 27
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+});
+formatter.result({
+  "duration": 56478900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+});
+formatter.result({
+  "duration": 1316759600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+});
+formatter.result({
+  "duration": 12192800,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b2607be3d3ff3ef4fdad16eb15610510\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 43,
+  "name": "Tester langues",
+  "description": "",
+  "id": "tester-les-details-de-contact;tester-langues",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 42,
+      "name": "@languages"
+    }
+  ]
+});
+formatter.step({
+  "line": 44,
+  "name": "je clique sur le bouton edit language",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 45,
+  "name": "je select language\"3\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "je select Fluency\"2\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "je select competency\"3\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
+  "name": "je saisie comments \"Fathi\u0026Zied\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 49,
+  "name": "je clique sur le bouton save_language",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditLanguage()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 19
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSelectLanguage(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 18
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSelectFluency(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 21
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSelectCompetency(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fathi\u0026Zied",
+      "offset": 20
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisieComments(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSave_language()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.before({
+  "duration": 1226990200,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "Je me connecte sur l\u0027application Orange HRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Je saisie le Username \"Admin\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Je saisie le mot de passe \"admin123\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Je clique sur le bouton login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Je clique sur sur le menu MyInfo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Je clique sur le bouton qualification",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+});
+formatter.result({
+  "duration": 3698849800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 23
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+});
+formatter.result({
+  "duration": 75327900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 27
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+});
+formatter.result({
+  "duration": 72864400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+});
+formatter.result({
+  "duration": 1127945400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+});
+formatter.result({
+  "duration": 13828400,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd5c8f365c3924ce2f6cb2a27adcd82f\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 52,
+  "name": "Tester license",
+  "description": "",
+  "id": "tester-les-details-de-contact;tester-license",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 51,
+      "name": "@license"
+    }
+  ]
+});
+formatter.step({
+  "line": 53,
+  "name": "je clique sur le bouton add_license",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 54,
+  "name": "je select Type de certif\"4\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "je saisie license Number\"Fathi\u0026Zied\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 56,
+  "name": "je saisie issued date \"2010-10-30\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "le saisie Expired Date \"2021-01-20\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "je clique sur le bouton save_license",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonAdd_license()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "4",
+      "offset": 25
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSelectTypeDeCertif(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fathi\u0026Zied",
+      "offset": 25
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisieLicenseNumber(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2010-10-30",
+      "offset": 23
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisieIssuedDate(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2021-01-20",
+      "offset": 24
+    }
+  ],
+  "location": "QualificationsStepDefinition.leSaisieExpiredDate(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSave_license()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.before({
+  "duration": 1253269300,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "Je me connecte sur l\u0027application Orange HRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Je saisie le Username \"Admin\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Je saisie le mot de passe \"admin123\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Je clique sur le bouton login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Je clique sur sur le menu MyInfo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Je clique sur le bouton qualification",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
+});
+formatter.result({
+  "duration": 3692935400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 23
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
+});
+formatter.result({
+  "duration": 55906700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 27
+    }
+  ],
+  "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
+});
+formatter.result({
+  "duration": 48847800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
+});
+formatter.result({
+  "duration": 1108076700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
+});
+formatter.result({
+  "duration": 14389700,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_pim_viewMyDetails\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-alpha-4\u0027, revision: \u0027c2d955b49e\u0027\nSystem info: host: \u0027LAPTOP-ZSS2\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zss\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a49386ff045d388a0495aca7f511bd98\n*** Element info: {Using\u003did, value\u003dmenu_pim_viewMyDetails}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:194)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject.myInfo(PhotographPageObject.java:48)\r\n\tat com.e2eTests.automatedTests.myinfo.photograph.PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo(PhotographStepDefinition.java:19)\r\n\tat ✽.And Je clique sur sur le menu MyInfo(myinfo/Qualifications.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 61,
+  "name": "Tester Attachement",
+  "description": "",
+  "id": "tester-les-details-de-contact;tester-attachement",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 60,
+      "name": "@attachments"
+    }
+  ]
+});
+formatter.step({
+  "line": 62,
+  "name": "je clique sur le bouton Add_Attachement",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 63,
+  "name": "je choisie un fichier \"C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "je saisie un comment \"Fathi\u0026Zied\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "je clique sur le bouton Upload",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonAdd_Attachement()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
       "val": "C:\\Users\\zss\\Desktop\\stage-photo-animalière-jeune-pic-epeiche.jpg",
-      "offset": 34
+      "offset": 23
     }
   ],
-  "location": "PersonalDetailsStepDefinition.jeChoisiUnFichierSelectFile(String)"
+  "location": "QualificationsStepDefinition.jeChoisieUnFichier(String)"
 });
 formatter.result({
-  "duration": 31236500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "PersonalDetailsStepDefinition.jeCliqueSurUpload()"
+  "arguments": [
+    {
+      "val": "Fathi\u0026Zied",
+      "offset": 22
+    }
+  ],
+  "location": "QualificationsStepDefinition.jeSaisieUnComment(String)"
 });
 formatter.result({
-  "duration": 2574909700,
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonUpload()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
