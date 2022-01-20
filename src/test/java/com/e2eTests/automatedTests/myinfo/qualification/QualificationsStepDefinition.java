@@ -1,8 +1,10 @@
 package com.e2eTests.automatedTests.myinfo.qualification;
 
+import com.e2eTests.automatedTests.authentication.pageObjects.AuthenticationPage;
 import com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
 
 import java.io.IOException;
 
@@ -25,12 +27,19 @@ public class QualificationsStepDefinition {
 
     @When("^Je clique sue le boutton edition experience$")
     public void jeCliqueSueLeBouttonEditionExperience() throws Throwable {
-        qualification.clickEditAttachement();
+
+        qualification.getElementColor();
+        qualification.workExperience();
+    }
+
+    @When("^je vérifier l'ajout d'un nouveau bloc \"([^\"]*)\"$")
+    public void jeVérifierLAjoutDUnNouveauBloc(String text) throws Throwable {
+        qualification.blocAddWorkExperience(text);
     }
 
     @When("^Je saisi le company \"([^\"]*)\"$")
     public void jeSaisiLeCompany(String String) throws Throwable {
-        qualification.fillCommentAttachment(String);
+        qualification.fillCompany(String);
     }
 
     @When("^Je saisi le job tilte \"([^\"]*)\"$")
@@ -50,12 +59,24 @@ public class QualificationsStepDefinition {
 
     @When("^Je salis un comment \"([^\"]*)\"$")
     public void jeSalisUnComment(String comment) throws Throwable {
-        qualification.fillCommentAttachment(comment);
+        qualification.filleComment(comment);
     }
 
-    @Then("^Je clique sur le bouton daveexperience$")
-    public void jeCliqueSurLeBoutonDaveexperience() throws Throwable {
+    @Then("^Je clique sur le bouton saveexperience$")
+    public void jeCliqueSurLeBoutonSaveexperience() throws Throwable {
         qualification.clickSaveExperience();
+
+    }
+
+    @Then("^Je selectionner l'experience ajouter \"([^\"]*)\"$")
+    public void jeSelectionnerLExperienceAjouter(String arg1) throws Throwable {
+        qualification.resultatSearch(QualificationsPageObject.workChekAll);
+    }
+
+    @Then("^Je suprimer l'experience ajouter$")
+    public void jeSuprimerLExperienceAjouter() throws Throwable {
+        qualification.isElementDisplayed(QualificationsPageObject.deleteWorkExperience);
+        qualification.deLleteWorkExperience();
     }
 /*--------------------------------------------------------------------------------------------------------------------------
                               Method Education
@@ -68,7 +89,7 @@ public class QualificationsStepDefinition {
 
     @When("^Je selectionner un level \"([^\"]*)\"$")
     public void jeSelectionnerUnLevel(String value) throws Throwable {
-        qualification.selectDropDownListByValueEducation(QualificationsPageObject.levelEducation,value);
+        qualification.selectDropDownListByValueEducation(QualificationsPageObject.levelEducation, value);
     }
 
     @When("^Je saisi l'instutite \"([^\"]*)\"$")
@@ -105,9 +126,10 @@ public class QualificationsStepDefinition {
     public void jeCliqueSurLeBoutonSaveeducation() throws Throwable {
         qualification.educationSave();
     }
-/*--------------------------------------------------------------------------------------------------------------------------
-                                       Method Skills
- ---------------------------------------------------------------------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------------------------------------------------------------------
+                                           Method Skills
+     ---------------------------------------------------------------------------------------------------------------------------*/
     @When("^Je clique sur le bouton editskill$")
     public void jeCliqueSurLeBoutonEditskill() throws Throwable {
         qualification.clickEditSkils();
@@ -115,7 +137,7 @@ public class QualificationsStepDefinition {
 
     @When("^Je selectionner un skill \"([^\"]*)\"$")
     public void jeSelectionnerUnSkill(String Skills) throws Throwable {
-        qualification.selectDropDownListByValueSkils(QualificationsPageObject.selectSkils,Skills);
+        qualification.selectDropDownListByValueSkils(QualificationsPageObject.selectSkils, Skills);
     }
 
     @When("^Je saisi years of experience\"([^\"]*)\"$")
@@ -130,8 +152,9 @@ public class QualificationsStepDefinition {
 
     @When("^Je clique sur saveskill$")
     public void jeCliqueSurSaveskill() throws Throwable {
-        qualification.clickSaveExperience();
+        qualification.skilsSave();
     }
+
     /*--------------------------------------------------------------------------------------------------------------------------
                                            Method Languages
      ---------------------------------------------------------------------------------------------------------------------------*/
@@ -142,19 +165,19 @@ public class QualificationsStepDefinition {
 
     @When("^je select language\"([^\"]*)\"$")
     public void jeSelectLanguage(String value) throws Throwable {
-        qualification.selectDropDownListByValueLanguage(QualificationsPageObject.language,value);
+        qualification.selectDropDownListByValueLanguage(QualificationsPageObject.language, value);
 
     }
 
     @When("^je select Fluency\"([^\"]*)\"$")
-    public void jeSelectFluency(String value) throws Throwable  {
-        qualification.selectDropDownListByValueFluency(QualificationsPageObject.languageGefluency,value);
+    public void jeSelectFluency(String value) throws Throwable {
+        qualification.selectDropDownListByValueFluency(QualificationsPageObject.languageGefluency, value);
     }
 
     @When("^je select competency\"([^\"]*)\"$")
     public void jeSelectCompetency(String value) throws Throwable {
 
-        qualification.selectDropDownListByValueCompetency(QualificationsPageObject.languageComptency,value);
+        qualification.selectDropDownListByValueCompetency(QualificationsPageObject.languageComptency, value);
     }
 
     @When("^je saisie comments \"([^\"]*)\"$")
@@ -165,7 +188,9 @@ public class QualificationsStepDefinition {
     @Then("^je clique sur le bouton save_language$")
     public void jeCliqueSurLeBoutonSave_language() throws Throwable {
         qualification.languageSave();
+      qualification.resultatSearchLanguages(QualificationsPageObject.checkLanguages);
     }
+
     /*--------------------------------------------------------------------------------------------------------------------------
                                               Method  License
         ---------------------------------------------------------------------------------------------------------------------------*/
@@ -175,8 +200,8 @@ public class QualificationsStepDefinition {
     }
 
     @When("^je select Type de certif\"([^\"]*)\"$")
-    public void jeSelectTypeDeCertif(String value)throws Throwable {
-        qualification.selectDropDownListByValueLicenseType(QualificationsPageObject.licenseType,value);
+    public void jeSelectTypeDeCertif(String value) throws Throwable {
+        qualification.selectDropDownListByValueLicenseType(QualificationsPageObject.licenseType, value);
     }
 
     @When("^je saisie license Number\"([^\"]*)\"$")
@@ -198,6 +223,7 @@ public class QualificationsStepDefinition {
     public void jeCliqueSurLeBoutonSave_license() throws Throwable {
         qualification.licenseSave();
     }
+
     /*--------------------------------------------------------------------------------------------------------------------------
                                                  Method Attachment
      --------------------------------------------------------------------------------------------------------------------------------*/
@@ -219,7 +245,7 @@ public class QualificationsStepDefinition {
     @Then("^je clique sur le bouton Upload$")
     public void jeCliqueSurLeBoutonUpload() throws Throwable {
         qualification.uploadAttachement();
-     }
+    }
 
 
 }

@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -379,7 +381,37 @@ public class CommonMethods extends Assertions {
 
 		}
 	}
-	
+	public void getElementColor() {
+		String color = driver.findElement(By.id("btnWorkExpCancel")).getCssValue("background-color");
+		String[] hexValue = color.replace("rgba(", "").replace(")", "").split(", ");
+
+		int hexValue1 = Integer.parseInt(hexValue[0]);
+		hexValue[1] = hexValue[1].trim();
+
+		int hexValue2 = Integer.parseInt(hexValue[1]);
+		hexValue[2] = hexValue[2].trim();
+
+		int hexValue3 = Integer.parseInt(hexValue[2]);
+
+		String editExperience = String.format("#%02x%02x%02x", hexValue1, hexValue2, hexValue3);
+		Assert.assertEquals("#848484", editExperience);
+		System.out.println("The color of the text is: " + editExperience);
+	}
+	public void checkBoxLines(WebElement workChekAll) {
+
+		WebElement tabs = workChekAll;
+		List<WebElement> lines = tabs.findElements(By.tagName("tr"));
+		WebElement q;
+		System.out.println(lines.size());
+		for (int i = 0; i < lines.size(); i++) {
+			q = lines.get(i);
+			// System.out.println(q.findElement(By.className("name")).getText());
+			if (q.findElement(By.className("name")).getText().equals("Zied")) {
+				q.findElement(By.className("check")).click();
+			}
+			System.out.println(q.getText());
+		}
+	}
 	public void checkElementInTable(List<WebElement> element) {
 		List<WebElement> tabs = element;
 		WebElement q;

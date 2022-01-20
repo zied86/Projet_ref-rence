@@ -13,19 +13,22 @@ Feature: Tester les details de contact
   @work_experience
   Scenario: Tester les details de contact
     And Je clique sue le boutton edition experience
-    And  Je saisi le company "Fathi&Zied"
-    And Je saisi le job tilte "Fathi&Zied"
+    And  je vérifier l'ajout d'un nouveau bloc "Add Work Experience"
+    And  Je saisi le company "Zied"
+    And Je saisi le job tilte "TEST"
     And Je selectionner la date from "2021-01-01"
     And Je selectionner la date to "2022-01-01"
-    And Je salis un comment "Fathi&Zied"
-    Then Je clique sur le bouton daveexperience
+    And Je salis un comment " Test QA Automation"
+    Then Je clique sur le bouton saveexperience
+    And Je selectionner l'experience ajouter "Zied"
+    And Je suprimer l'experience ajouter
 
   @edication
   Scenario: Tester les details de contact
     When Je clique sur le bouton editeducation
     And Je selectionner un level "1"
     And Je saisi l'instutite "Fathi&Zied"
-     And Je saisi Major Specialization "Fathi&Zied"
+    And Je saisi Major Specialization "Fathi&Zied"
     And Je saisi  year "2021"
     And Je saisi gpa/Score "20"
     And Je saisi start date "2022-01-15"
@@ -35,13 +38,14 @@ Feature: Tester les details de contact
   @skills
   Scenario: Tester les details de contact
     When Je clique sur le bouton editskill
-    And Je selectionner un skill "15"
+    And Je selectionner un skill "7"
     And Je saisi years of experience"10"
     And Je saisi Commentsskill"Fathi&Zied"
     And Je clique sur saveskill
+
   @languages
   Scenario:Tester langues
-  When je clique sur le bouton edit language
+    When je clique sur le bouton edit language
     And je select language"3"
     And je select Fluency"2"
     And je select competency"3"
@@ -51,7 +55,7 @@ Feature: Tester les details de contact
   @license
   Scenario:Tester license
     When je clique sur le bouton add_license
-    And je select Type de certif"4"
+    And je select Type de certif"2"
     And je saisie license Number"Fathi&Zied"
     And je saisie issued date "2010-10-30"
     And le saisie Expired Date "2021-01-20"
