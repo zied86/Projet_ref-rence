@@ -1,10 +1,7 @@
-package com.e2eTests.automatedTests.myinfo.qualification;
+package com.e2eTests.automatedTests.qualification;
 
-import com.e2eTests.automatedTests.authentication.pageObjects.AuthenticationPage;
-import com.e2eTests.automatedTests.myinfo.photograph.PhotographPageObject;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.Assert;
 
 import java.io.IOException;
 
@@ -188,7 +185,7 @@ public class QualificationsStepDefinition {
     @Then("^je clique sur le bouton save_language$")
     public void jeCliqueSurLeBoutonSave_language() throws Throwable {
         qualification.languageSave();
-      qualification.resultatSearchLanguages(QualificationsPageObject.checkLanguages);
+        qualification.resultatSearchLanguages(QualificationsPageObject.checkLanguages);
     }
 
     /*--------------------------------------------------------------------------------------------------------------------------

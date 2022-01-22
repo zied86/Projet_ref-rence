@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 20, 2022 11:56:48 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Jan 22, 2022 12:03:06 PM</span>
 				</a>
 			</li>
 			<li>
@@ -90,8 +90,8 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@qualification</a></li>
-					<li><a href='#'>@languages</a></li>
+					<li><a href='#'>@serach_pim</a></li>
+					<li><a href='#'>@search_employee</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -188,19 +188,19 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Tester les details de contact</span>
-						<span class='test-time'>Jan 20, 2022 11:56:48 AM</span>
+						<span class='test-name'>Tester la recherche de module employee</span>
+						<span class='test-time'>Jan 22, 2022 12:03:06 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
 	<div class='category-list'>
-		<span class='category label white-text'>@languages</span>
+		<span class='category label white-text'>@search_employee</span>
 	</div>
-	<span class='duration right label'>0h 0m 13s+709ms</span>
+	<span class='duration right label'>0h 0m 12s+422ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">Tester langues</span>
+		<span class="desc-text">Tester la recherche d'un employee</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node given pass' status='pass'>
@@ -235,11 +235,11 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='7' class='node and pass' status='pass'>
+		<li test-id='7' class='node when pass' status='pass'>
 			
-			<b>And</b>
+			<b>When</b>
 			
-			<span class="bdd-step-name">And Je clique sur sur le menu MyInfo</span>
+			<span class="bdd-step-name">When Je clique sur le menu PIM</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -247,15 +247,15 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And Je clique sur le bouton qualification</span>
+			<span class="bdd-step-name">And Je clique sur le bouton Employeelist</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='9' class='node when pass' status='pass'>
+		<li test-id='9' class='node and pass' status='pass'>
 			
-			<b>When</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">When je clique sur le bouton edit language</span>
+			<span class="bdd-step-name">And Je vérifier le titre de bloc recherche ">"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -263,7 +263,7 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And je select language"3"</span>
+			<span class="bdd-step-name">And Je vérifier l'existance des champs"Employee Name" et "Id" et "Employment Status"et "Include"et "Supervisor Name"et "Job Title"et"Sub Unit"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -271,7 +271,7 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And je select Fluency"2"</span>
+			<span class="bdd-step-name">And Je recherche le l'employee "e1020122"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -279,7 +279,7 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And je select competency"3"</span>
+			<span class="bdd-step-name">And Je clique sur le bouton recherche</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -287,7 +287,7 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And je saisie comments "Fathi&Zied"</span>
+			<span class="bdd-step-name">And Je vérifier le resultat de recherche</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -295,7 +295,7 @@
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then je clique sur le bouton save_language</span>
+			<span class="bdd-step-name">Then Je clique sur le bouton reset</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -355,7 +355,7 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@qualification</span>
+						<span class='category-name'>@serach_pim</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -378,8 +378,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 20, 2022 11:56:48 AM</td>
-										<td class='linked' test-id='1'>Tester les details de contact</td>
+										<td>Jan 22, 2022 12:03:06 PM</td>
+										<td class='linked' test-id='1'>Tester la recherche de module employee</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -389,7 +389,7 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@languages</span>
+						<span class='category-name'>@search_employee</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -412,8 +412,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 20, 2022 11:56:48 AM</td>
-										<td class='linked' test-id='2'>Tester les details de contact.Tester langues</td>
+										<td>Jan 22, 2022 12:03:06 PM</td>
+										<td class='linked' test-id='2'>Tester la recherche de module employee.Tester la recherche d'un employee</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -460,19 +460,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 20, 2022 11:56:48 AM</div>
+					<div class='panel-lead'>Jan 22, 2022 12:03:06 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 20, 2022 11:57:02 AM</div>
+			 		<div class='panel-lead'>Jan 22, 2022 12:03:18 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 13s+955ms</div>
+					<div class='panel-lead'>0h 0m 12s+665ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -488,7 +488,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@qualification</td>
+							<td>@serach_pim</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -497,7 +497,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>@languages</td>
+							<td>@search_employee</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>

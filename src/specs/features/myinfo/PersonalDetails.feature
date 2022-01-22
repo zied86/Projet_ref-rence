@@ -1,4 +1,4 @@
-@Personal_Details
+@personal_details
 Feature: Tester la modification detail personnel
   ETQ utilisateur je souhaite tester tester la suppression d'un utilisateur
 
@@ -9,7 +9,7 @@ Feature: Tester la modification detail personnel
     And Je clique sur le bouton login
     And Je clique sur sur le menu MyInfo
 
-  @PersonalDetails
+  @personal_details
   Scenario:Tester la modification detail personnel
     When Je clique sur le sous menu detail presonnel
     And Je clique sur le bouton edit dans le boc detai personnel

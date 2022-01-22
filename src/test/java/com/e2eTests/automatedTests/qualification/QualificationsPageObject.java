@@ -1,4 +1,4 @@
-package com.e2eTests.automatedTests.myinfo.qualification;
+package com.e2eTests.automatedTests.qualification;
 
 import com.e2eTests.automatedTests.utilis.BasePage;
 import org.junit.Assert;

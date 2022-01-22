@@ -1,19 +1,19 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("myinfo/Qualifications.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("pim/SearchPim.feature");
 formatter.feature({
   "line": 2,
-  "name": "Tester les details de contact",
-  "description": "ETQ utilisateur je souhaite tester les details de contact d\u0027un utilisateur",
-  "id": "tester-les-details-de-contact",
+  "name": "Tester la recherche de module employee",
+  "description": "ETQ utilisateur je souhaite tester la recherche de module employee",
+  "id": "tester-la-recherche-de-module-employee",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@qualification"
+      "name": "@serach_pim"
     }
   ]
 });
 formatter.before({
-  "duration": 3076713600,
+  "duration": 3328911100,
   "status": "passed"
 });
 formatter.background({
@@ -43,21 +43,11 @@ formatter.step({
   "name": "Je clique sur le bouton login",
   "keyword": "And "
 });
-formatter.step({
-  "line": 10,
-  "name": "Je clique sur sur le menu MyInfo",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Je clique sur le bouton qualification",
-  "keyword": "And "
-});
 formatter.match({
   "location": "CommonSteps.jeMeConnecteSurLApplicationOrangeHRM()"
 });
 formatter.result({
-  "duration": 2355577500,
+  "duration": 2562923200,
   "status": "passed"
 });
 formatter.match({
@@ -70,7 +60,7 @@ formatter.match({
   "location": "AuthenticationStepDefinitions.jeSaisieLeUsername(String)"
 });
 formatter.result({
-  "duration": 104331200,
+  "duration": 94944500,
   "status": "passed"
 });
 formatter.match({
@@ -83,138 +73,166 @@ formatter.match({
   "location": "AuthenticationStepDefinitions.jeSaisieLeMotDePasse(String)"
 });
 formatter.result({
-  "duration": 50945900,
+  "duration": 49677400,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthenticationStepDefinitions.jeCliqueSurLeBoutonLogin()"
 });
 formatter.result({
-  "duration": 2567964500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "PhotographStepDefinition.jeCliqueSurSurLeMenuMyInfo()"
-});
-formatter.result({
-  "duration": 1899980100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonQualification()"
-});
-formatter.result({
-  "duration": 893793300,
+  "duration": 3352914300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 47,
-  "name": "Tester langues",
+  "line": 12,
+  "name": "Tester la recherche d\u0027un employee",
   "description": "",
-  "id": "tester-les-details-de-contact;tester-langues",
+  "id": "tester-la-recherche-de-module-employee;tester-la-recherche-d\u0027un-employee",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 46,
-      "name": "@languages"
+      "line": 11,
+      "name": "@search_employee"
     }
   ]
 });
 formatter.step({
-  "line": 48,
-  "name": "je clique sur le bouton edit language",
+  "line": 13,
+  "name": "Je clique sur le menu PIM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 49,
-  "name": "je select language\"3\"",
+  "line": 14,
+  "name": "Je clique sur le bouton Employeelist",
   "keyword": "And "
 });
 formatter.step({
-  "line": 50,
-  "name": "je select Fluency\"2\"",
+  "line": 15,
+  "name": "Je vérifier le titre de bloc recherche \"\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 51,
-  "name": "je select competency\"3\"",
+  "line": 16,
+  "name": "Je vérifier l\u0027existance des champs\"Employee Name\" et \"Id\" et \"Employment Status\"et \"Include\"et \"Supervisor Name\"et \"Job Title\"et\"Sub Unit\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 52,
-  "name": "je saisie comments \"Fathi\u0026Zied\"",
+  "line": 17,
+  "name": "Je recherche le l\u0027employee \"e1020122\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 53,
-  "name": "je clique sur le bouton save_language",
+  "line": 18,
+  "name": "Je clique sur le bouton recherche",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "Je vérifier le resultat de recherche",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "Je clique sur le bouton reset",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonEditLanguage()"
+  "location": "SearchPimStepDefinition.jeCliqueSurLeMenuPIM()"
 });
 formatter.result({
-  "duration": 52989400,
+  "duration": 1576513000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchPimStepDefinition.jeCliqueSurLeBoutonEmployeelist()"
+});
+formatter.result({
+  "duration": 663130900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "3",
-      "offset": 19
+      "val": "\u003e",
+      "offset": 40
     }
   ],
-  "location": "QualificationsStepDefinition.jeSelectLanguage(String)"
+  "location": "SearchPimStepDefinition.jeVérifierLeTitreDeBlocRecherche(String)"
 });
 formatter.result({
-  "duration": 87840200,
+  "duration": 30553200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2",
-      "offset": 18
+      "val": "Employee Name",
+      "offset": 35
+    },
+    {
+      "val": "Id",
+      "offset": 54
+    },
+    {
+      "val": "Employment Status",
+      "offset": 62
+    },
+    {
+      "val": "Include",
+      "offset": 84
+    },
+    {
+      "val": "Supervisor Name",
+      "offset": 96
+    },
+    {
+      "val": "Job Title",
+      "offset": 116
+    },
+    {
+      "val": "Sub Unit",
+      "offset": 129
     }
   ],
-  "location": "QualificationsStepDefinition.jeSelectFluency(String)"
+  "location": "SearchPimStepDefinition.jeVérifierLExistanceDesChampsEtEtEtEtEtEt(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 80034400,
+  "duration": 146538900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "3",
-      "offset": 21
+      "val": "e1020122",
+      "offset": 28
     }
   ],
-  "location": "QualificationsStepDefinition.jeSelectCompetency(String)"
+  "location": "SearchPimStepDefinition.jeRechercheLeLEmployee(String)"
 });
 formatter.result({
-  "duration": 72764400,
+  "duration": 72761300,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Fathi\u0026Zied",
-      "offset": 20
-    }
-  ],
-  "location": "QualificationsStepDefinition.jeSaisieComments(String)"
+  "location": "SearchPimStepDefinition.jeCliqueSurLeBoutonRecherche()"
 });
 formatter.result({
-  "duration": 46569100,
+  "duration": 468835100,
   "status": "passed"
 });
 formatter.match({
-  "location": "QualificationsStepDefinition.jeCliqueSurLeBoutonSave_language()"
+  "location": "SearchPimStepDefinition.jeVérifierLeResultatDeRecherche()"
 });
 formatter.result({
-  "duration": 2337728000,
+  "duration": 84600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchPimStepDefinition.jeCliqueSurLeBoutonReset()"
+});
+formatter.result({
+  "duration": 70000,
   "status": "passed"
 });
 });
